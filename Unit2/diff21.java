@@ -12,7 +12,7 @@ public class diff21
     {
       System.out.println("YAYYYY CORRECT");
     }else{
-      System.out.println("NOOOO WRONG EXPECTATION");
+      System.out.println("NOOOO WRONG");
     }
   }
 
@@ -28,7 +28,7 @@ public class diff21
   public static void main(String[] args)
   {
     testDiff21(13, 8);
-    testDiff21(38, 5);
+    testDiff21(38, 34);
     testDiff21(41, 40);
   }
 }
