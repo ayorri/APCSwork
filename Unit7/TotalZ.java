@@ -36,7 +36,6 @@ public class TotalZ
     String[] name2 = {"Zoro", "zero", "Zippy"};
     String[] name3 = {"zeref", "Zeus", "juice"};
 
-
     testTotalZ(name, 0);
     testTotalZ(name2, 3);
     testTotalZ(name3, 2);

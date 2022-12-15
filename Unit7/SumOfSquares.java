@@ -2,15 +2,6 @@ import java.util.Arrays;
 
 public class SumOfSquares
 {
-  public static double sumOfsquares(double[] nums)
-  {
-    double sum = 0;
-
-    for(double num : nums)
-      sum += num*num;
-
-    return sum;
-  }
   public static void testsumOfSquares(double[] nums, double e)
   {
     double result = sumOfsquares(nums);
@@ -20,13 +11,21 @@ public class SumOfSquares
     }
       System.out.println("Expected: " + e + " Result: " + result);
 
-
     if(result == e)
       System.out.println("GOT IT!");
     else
       System.out.println("WRONG!");
 
     System.out.println();
+  }
+  public static double sumOfsquares(double[] nums)
+  {
+    double sum = 0;
+
+    for(double num : nums)
+      sum += num*num;
+
+    return sum;
   }
   public static void main(String[] args)
   {
