@@ -15,8 +15,7 @@ public class SumOfEvens
   public static int SumOfEvens(int n)
   {
     int count = 0;
-    int num = i % 2;
-    for (int i = 0; i < n*nums;i++)
+    for (int i = 0; i < n;i++)
     {
       if(i % 2 == 0)
       count += i;
