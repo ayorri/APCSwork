@@ -16,5 +16,6 @@ public class TestMagicEightBall
     System.out.println("Will I ace my test tomorrow? " + ball2.ask());
     System.out.println("Am I going to get Juniors this weekend? " + ball3.ask());
     System.out.println("Am I gonna go to a good college? " + ball4.ask());
+    System.out.println("Am I going to make JNats this weekend? " + ball4.ask());
    }
 }
